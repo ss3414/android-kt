@@ -1,0 +1,9 @@
+# 文件夹
+/gradle/
+/.idea/
+/**/build/
+/**/libs/
+/**/release/
+
+# 文件
+*.iml
