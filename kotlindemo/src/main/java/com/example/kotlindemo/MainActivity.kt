@@ -1,9 +1,10 @@
 package com.example.kotlindemo
 
-import android.app.AlertDialog
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.ComponentActivity
+import com.example.kotlindemo.first.FirstActivity
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,13 +13,8 @@ class MainActivity : ComponentActivity() {
 
         val button1: Button = findViewById(R.id.button1)
         button1.setOnClickListener {
-            AlertDialog.Builder(this)
-                .setTitle("Title")
-                .setMessage("Message")
-                .setPositiveButton("OK") { dialog, _ ->
-                    dialog.dismiss()
-                }
-                .show()
+            val intent = Intent(this@MainActivity, FirstActivity::class.java)
+            startActivity(intent)
         }
     }
 }

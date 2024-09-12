@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+布局
+LinearLayout（线性）
+RelativeLayout（相对）
+FrameLayout（帧）
+TableLayout（表格）
+AbsoluteLayout（绝对）
+GridLayout（网格）
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="0dp"
+        android:background="#FF000000" />
+
+</LinearLayout>

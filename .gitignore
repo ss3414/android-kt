@@ -1,6 +1,7 @@
 # 文件夹
-/gradle/
 /.idea/
+/.gradle/
+/gradle/
 /**/build/
 /**/libs/
 /**/release/
