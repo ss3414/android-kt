@@ -1,9 +1,11 @@
 # 文件夹
-/gradle/
 /.idea/
+/.gradle/
+/gradle/
 /**/build/
 /**/libs/
 /**/release/
 
 # 文件
 *.iml
+/**/.DS_Store

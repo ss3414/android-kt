@@ -2,9 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
-        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="kotlindemo"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlindemo">
@@ -17,6 +16,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".first.FirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".first.c03.C31Activity"
+            android:exported="false" />
+        <activity
+            android:name=".first.c04.C42Activity"
+            android:exported="false" />
+        <activity
+            android:name=".first.c04.C43Activity"
+            android:exported="false" />
+        <activity
+            android:name=".first.c07.C72Activity"
+            android:exported="false" />
+        <activity
+            android:name=".first.c07.C73Activity"
+            android:exported="false" />
+        <activity
+            android:name=".first.c07.C74Activity"
+            android:exported="false" />
     </application>
 
 </manifest>

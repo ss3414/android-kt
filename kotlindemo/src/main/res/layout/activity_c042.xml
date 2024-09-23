@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--
+    android:textAllCaps="false"（禁用英文自动大写）
+    -->
+    <!--<Button-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Button"-->
+    <!--android:textAllCaps="false" />-->
+
+    <!--<CheckedTextView-->
+    <!--android:id="@+id/checkedtextview"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:checkMark="?android:attr/listChoiceIndicatorMultiple"-->
+    <!--android:text="CheckedTextView" />-->
+
+    <!--
+    android:maxLines="2"（自动拉伸）
+    -->
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:inputType="text"
+        android:maxLines="2"
+        tools:ignore="LabelFor" />
+
+    <!--
+    图片必须为PNG格式
+    -->
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/test"-->
+    <!--tools:ignore="ContentDescription" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:text="TextView"-->
+    <!--android:textColor="#FF000000"-->
+    <!--android:textSize="24sp" />-->
+
+</LinearLayout>
