@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!--
+    usesCleartextTraffic（允许HTTP）
+    -->
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="kotlindemo"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Kotlindemo">
+        android:theme="@style/Theme.Kotlindemo"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -37,6 +41,15 @@
         <activity
             android:name=".first.c07.C74Activity"
             android:exported="false" />
+        <activity
+            android:name=".archive.ArchiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".archive.WebviewActivity"
+            android:exported="false" />
     </application>
+
+    <!-- 权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

@@ -15,7 +15,7 @@ import java.io.OutputStreamWriter
 class C72Activity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_c072)
+        setContentView(R.layout.activity_first_c072)
 
         /* 存储文件 */
         val button1: Button = findViewById(R.id.button1)

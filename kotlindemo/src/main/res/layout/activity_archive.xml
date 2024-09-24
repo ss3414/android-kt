@@ -10,17 +10,10 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/webview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="第一行代码"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="归档"
+            android:text="WebView"
             android:textAllCaps="false" />
 
     </LinearLayout>

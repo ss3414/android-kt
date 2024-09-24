@@ -13,7 +13,6 @@ import com.example.kotlindemo.first.c05.C52Activity
 import com.example.kotlindemo.first.c07.C72Activity
 import com.example.kotlindemo.first.c07.C73Activity
 import com.example.kotlindemo.first.c07.C74Activity
-import com.example.kotlindemo.first.c12.C122Activity
 
 class FirstActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,7 +22,7 @@ class FirstActivity : ComponentActivity() {
         /* Log+logcat才能看到日志 */
         Log.d("FirstActivity", "create")
 
-        /* 活动 */
+        /* Activity */
         val c31: Button = findViewById(R.id.c31)
         c31.setOnClickListener {
             val intent = Intent(this@FirstActivity, C31Activity::class.java)
@@ -71,13 +70,6 @@ class FirstActivity : ComponentActivity() {
         val c74: Button = findViewById(R.id.c74)
         c74.setOnClickListener {
             val intent = Intent(this@FirstActivity, C74Activity::class.java)
-            startActivity(intent)
-        }
-
-        /* ToolBar */
-        val c122: Button = findViewById(R.id.c122)
-        c122.setOnClickListener {
-            val intent = Intent(this@FirstActivity, C122Activity::class.java)
             startActivity(intent)
         }
     }

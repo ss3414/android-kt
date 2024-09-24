@@ -12,7 +12,7 @@ class C74Activity : ComponentActivity() {
     @SuppressLint("Range")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_c074)
+        setContentView(R.layout.activity_first_c074)
 
         /* 创建数据库 */
         val util = SQLiteUtil(this, "untitled.db", 1)

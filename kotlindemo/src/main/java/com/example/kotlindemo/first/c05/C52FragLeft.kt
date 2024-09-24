@@ -16,7 +16,7 @@ class C52FragLeft : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_c052_left, container, false)
+        return inflater.inflate(R.layout.fragment_first_c052_left, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

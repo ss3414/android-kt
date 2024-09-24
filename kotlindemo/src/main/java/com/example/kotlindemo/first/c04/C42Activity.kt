@@ -11,7 +11,7 @@ import com.example.kotlindemo.R
 class C42Activity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_c042)
+        setContentView(R.layout.activity_first_c042)
 
         val editText: EditText = findViewById(R.id.edittext)
         editText.setOnKeyListener { _: View?, actionId: Int, event: KeyEvent ->

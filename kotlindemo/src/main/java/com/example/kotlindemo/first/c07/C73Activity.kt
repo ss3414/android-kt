@@ -9,7 +9,7 @@ import com.example.kotlindemo.R
 class C73Activity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_c073)
+        setContentView(R.layout.activity_first_c073)
 
         /* 添加数据 */
         val button1: Button = findViewById(R.id.button1)
