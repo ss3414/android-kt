@@ -33,6 +33,9 @@
             android:name=".first.c04.C43Activity"
             android:exported="false" />
         <activity
+            android:name=".first.c05.C52Activity"
+            android:exported="false" />
+        <activity
             android:name=".first.c07.C72Activity"
             android:exported="false" />
         <activity
@@ -46,6 +49,9 @@
             android:exported="false" />
         <activity
             android:name=".archive.WebviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".archive.WorkerActivity"
             android:exported="false" />
     </application>
 

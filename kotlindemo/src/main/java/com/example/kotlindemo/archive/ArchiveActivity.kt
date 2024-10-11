@@ -17,5 +17,12 @@ class ArchiveActivity : ComponentActivity() {
             val intent = Intent(this@ArchiveActivity, WebviewActivity::class.java)
             startActivity(intent)
         }
+
+        /* Worker */
+        val worker: Button = findViewById(R.id.worker)
+        worker.setOnClickListener {
+            val intent = Intent(this@ArchiveActivity, WorkerActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

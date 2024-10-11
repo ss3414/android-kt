@@ -18,11 +18,8 @@ class WebviewActivity : ComponentActivity() {
         val webSettings: WebSettings = webView.settings
         webSettings.javaScriptEnabled = true /* 启用JS */
         val webViewClient: WebViewClient = object : WebViewClient() {
-            /* fixme 获取Cookie */
             override fun onPageFinished(view: WebView, url: String) {
                 super.onPageFinished(view, url)
-//                val cookieManager: CookieManager = CookieManager.getInstance()
-//                Log.d("WebviewActivity", cookieManager.getCookie(url))
             }
         }
         webView.webViewClient = webViewClient
