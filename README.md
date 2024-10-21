@@ -21,5 +21,11 @@ Android Kotlin
 * C74（SQLite）
 
 ## archive
+* Archive
+* DeepLink
+* Jump（跳转）
 * WebView
 * Worker（定时任务）
+
+# kotlinutil
+* Constant（常量）

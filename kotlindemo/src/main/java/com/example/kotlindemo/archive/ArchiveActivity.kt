@@ -11,6 +11,13 @@ class ArchiveActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_archive)
 
+        /* 跳转 */
+        val jump: Button = findViewById(R.id.jump)
+        jump.setOnClickListener {
+            val intent = Intent(this@ArchiveActivity, JumpActivity::class.java)
+            startActivity(intent)
+        }
+
         /* WebView */
         val webview: Button = findViewById(R.id.webview)
         webview.setOnClickListener {
