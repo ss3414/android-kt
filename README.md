@@ -24,6 +24,8 @@ Android Kotlin
 * Archive
 * DeepLink
 * Jump（跳转）
+* Network（网络抓包）
+* Permission
 * WebView
 * Worker（定时任务）
 

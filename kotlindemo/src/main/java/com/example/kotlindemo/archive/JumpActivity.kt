@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 
 class JumpActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -20,7 +21,7 @@ class JumpActivity : ComponentActivity() {
 //        }
 
         /* 根据DeepLink打开其他App */
-        val deepLink = "twitter://user?screen_name=partizan_oleg"
+        val deepLink = "twitter://user?screen_name=elonmusk"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse(deepLink))
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK) /* 新开目标应用 */
         if (intent.resolveActivity(packageManager) != null) {
@@ -29,4 +30,5 @@ class JumpActivity : ComponentActivity() {
             Toast.makeText(this, "应用未安装", Toast.LENGTH_SHORT).show()
         }
     }
+
 }

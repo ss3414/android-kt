@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">kotlindemo</string>
+    <string name="archive_locale">Switch Language</string>
+    <string name="archive_jump">Jump</string>
+</resources>

@@ -15,12 +15,15 @@ import com.example.kotlindemo.first.c07.C73Activity
 import com.example.kotlindemo.first.c07.C74Activity
 
 class FirstActivity : ComponentActivity() {
+
+    private val logTag: String = javaClass.simpleName
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_first)
 
         /* Log+logcat才能看到日志 */
-        Log.d("FirstActivity", "create")
+        Log.d(logTag, "create")
 
         /* Activity */
         val c31: Button = findViewById(R.id.c31)

@@ -13,7 +13,28 @@
             android:id="@+id/jump"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jump"
+            android:text="@string/archive_jump"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/locale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/archive_locale"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/network"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Network"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/permission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Permission"
             android:textAllCaps="false" />
 
         <Button

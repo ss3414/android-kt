@@ -6,6 +6,7 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 
 class DeepLinkActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -18,4 +19,5 @@ class DeepLinkActivity : ComponentActivity() {
             Toast.makeText(this, "id: $id", Toast.LENGTH_SHORT).show()
         }
     }
+
 }

@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- 权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <!--
     usesCleartextTraffic（允许HTTP）
+    networkSecurityConfig（信任用户的证书/Charles抓包）
     -->
     <application
         android:icon="@mipmap/ic_launcher"
-        android:label="kotlindemo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlindemo"
@@ -81,15 +86,15 @@
             android:name=".archive.JumpActivity"
             android:exported="false" />
         <activity
+            android:name=".archive.PermissionActivity"
+            android:exported="false" />
+        <activity
             android:name=".archive.WebviewActivity"
             android:exported="false" />
         <activity
             android:name=".archive.WorkerActivity"
             android:exported="false" />
     </application>
-
-    <!-- 权限 -->
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- 声明需要查询的包名 -->
     <queries>

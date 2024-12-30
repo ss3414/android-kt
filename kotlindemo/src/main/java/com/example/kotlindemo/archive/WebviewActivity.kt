@@ -9,6 +9,7 @@ import androidx.activity.ComponentActivity
 import com.example.kotlindemo.R
 
 class WebviewActivity : ComponentActivity() {
+
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,4 +26,5 @@ class WebviewActivity : ComponentActivity() {
         webView.webViewClient = webViewClient
         webView.loadUrl("http://bbs.wuyou.net")
     }
+
 }

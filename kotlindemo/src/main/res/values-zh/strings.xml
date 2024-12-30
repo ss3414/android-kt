@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">kotlin示例</string>
+    <string name="archive_locale">切换语言</string>
+    <string name="archive_jump">跳转</string>
+</resources>
